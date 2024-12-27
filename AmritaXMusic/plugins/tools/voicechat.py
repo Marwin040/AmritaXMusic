@@ -27,8 +27,8 @@ from AmritaXMusic.utils.database import (
 from AmritaXMusic.core.call import VIP
 """
 from pyrogram import filters
-from VIPMUSIC import app
-from VIPMUSIC.utils.database import get_assistant
+from AmritaXMusic import app
+from AmritaXMusic.utils.database import get_assistant
 import asyncio
 
 async def continuous_check():
